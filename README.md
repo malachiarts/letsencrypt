@@ -18,6 +18,5 @@ pass it a hostname and it will find the cert on your local drive and
 upload it to AWS.
 
 1. ./create_cert.sh # *.majustfortesting.com is assumed.
-2. ./add_txt_record_to_domain_for_verification.sh majustfortesting.com
-   <CHALLENGE VALUE>
+2. ./add_txt_record_to_domain_for_verification.sh majustfortesting.com CHALLENGE_VALUE
 3. ./import_certificate_to_aws.sh majustfortesting.com
